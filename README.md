@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# Welcome to our CineConnect app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The app enables users to browse movies, view details, read reviews, rate movies, and maintain a watchlist. It includes authentication and dynamic navigation.
 
-## Get started
+The app has below Core Feature:
+   Login: Login with the TMDB registered username and password.
+   Dashboard: Lists movies with options to add them to the WishList.
+   Movie Details: Displays detailed information,reviews and user ratings(View,Add and Delete).
+   WatchList: Lists saved movies with option to delete them from WatchList.
+   Profile: Shows User information
+   Authentication: Redirects users to login or dashboard based on Session status.
 
-1. Install dependencies
+The app follows file-based navigation with redux state management to handle features like movie list, details and watchlist.
 
-   ```bash
-   npm install
-   ```
+The app uses Typescript to ensure typesafety across the app.
 
-2. Start the app
+Leverages TMDB API for real-time movie details,reviews and ratings.
 
-   ```bash
-    npx expo start
-   ```
+Implements user-friendly error messages.
 
-In the output, you'll find options to open the app in a
+Integrated tests for testing components and actions.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This app is built with the modern development standards to provie a robust and scalable experience.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

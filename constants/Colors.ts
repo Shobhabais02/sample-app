@@ -5,6 +5,7 @@
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
+export const commonBackgroundColor = '#d2d1d3';
 
 export const Colors = {
   light: {

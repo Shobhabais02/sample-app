@@ -1,0 +1,6 @@
+import Constants from 'expo-constants';
+//TMDB API Key
+export const TMDB_API_KEY = "428f322861f55174d93b8663dbbe3adf";
+
+//TMDB Bearer Token for Authentication
+export const TMDB_BEARER_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MjhmMzIyODYxZjU1MTc0ZDkzYjg2NjNkYmJlM2FkZiIsIm5iZiI6MTczMTY5ODY2MS4xMzc0NjM2LCJzdWIiOiI2NzM3OTk3OWQ2NzNmZDI2MDZhZTlmNDIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.t_dfmqSu2k2q3lWjAsPyjsnMksWp8RuEB20vyoMiJxQ";
